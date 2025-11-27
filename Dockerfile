@@ -19,4 +19,4 @@ RUN ./gradlew clean build -x test
  
 # Run the app by dynamically finding the JAR file in the target directory
 # CMD ["sh", "-c", "java -jar target/*.jar"]
-CMD ["sh", "-c", "java -jar build/libs/njdemo-0.0.1-SNAPSHOT.jar"]
+CMD ["sh", "-c", "java -jar build/libs/test-0.0.1-SNAPSHOT.jar"]
